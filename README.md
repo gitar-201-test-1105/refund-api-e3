@@ -40,3 +40,6 @@ pytest -q tests/integration
 ## CI
 
 `.github/workflows/ci.yml` runs four checks on every pull request: `lint` (ruff), `unit-tests`, `integration-tests (postgres)`, and `docker-build` (build the image and call `/health`).
+
+
+Priming note.
